@@ -12,9 +12,9 @@ const Hydratation = () => {
             <div>
                 <select className="px-4 py-2 text-base text-basePurple rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-basePurple focus:border-basePurple">
                     <option value="all">See All</option>
-                    <option value="glass1">Glass 1</option>
-                    <option value="glass2">Glass 2</option>
-                    <option value="glass3">Glass 3</option>
+                    <option value="watermelon">Watermelon</option>
+                    <option value="oranges">Oranges</option>
+                    <option value="grapes">Grapes</option>
                 </select>
             </div>
         </div>

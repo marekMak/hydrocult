@@ -1,3 +1,4 @@
+import GlassGraph from "./glass/GlassGraph"
 import SimpleGlass from "./glass/SimpleGlass"
 
 const Glass = () => {
@@ -10,9 +11,12 @@ const Glass = () => {
             </div>
             <div className='flex items-start gap-4 text-sm'>
                 <SimpleGlass colour="Purple" number={1}/>
-                <SimpleGlass colour="Pinnk" number={2}/>
+                <SimpleGlass colour="Pink" number={2}/>
                 <SimpleGlass colour="Red" number={3}/>
             </div>
+        </div>
+        <div className='flex flex-col py-2'>
+          <GlassGraph/>
         </div>
     </section>
   )

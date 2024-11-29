@@ -1,8 +1,10 @@
-const Daily = ({percentage, mililiters}) => {
+import Graph from './intakeGraph/Graph';
+
+const Daily = ({mililiters}) => {
   return (
-    <div className='bg-lightGreen py-5 px-2 rounded-xl flex items-start justify-start pl-6 gap-4'>
+    <div className='bg-lightGreen intake-container'>
         <div className="flex justify-center items-center w-fit h-full">
-            {percentage} %
+            <Graph percentage={80} colour="green"/>
         </div>
         <div>
             <h1 className="text-lightGreenText">Daily Intake</h1>

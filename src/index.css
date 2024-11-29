@@ -4,6 +4,10 @@
 
 @layer base{
     body{
-        @apply font-inter
+        @apply font-poppins
+    }
+
+    .intake-container{
+        @apply rounded-xl flex items-center gap-2 h-20
     }
 }

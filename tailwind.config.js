@@ -12,7 +12,8 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
-        bebas:['Bebas Neue', 'cursive']
+        bebas:['Bebas Neue', 'cursive'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       colors:{
         basePurple:'#3629B7',
@@ -32,9 +33,17 @@ module.exports = {
         fruitPurple:"#f4f2ff",
         bottleBlue:"#1573FF",
         goalBlue:"#3546B1",
-        drinkGrey:"#F7F9FD"
+        drinkGrey:"#F7F9FD",
       }
     },
   },
+  safelist: [
+    'bg-fruitGreen',
+    'bg-fruitOrange',
+    'bg-fruitPurple',
+    'bg-chartPurple',
+    'bg-chartPink',
+    'bg-chartRed',
+  ],
   plugins: [],
 }

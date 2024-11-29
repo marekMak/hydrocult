@@ -6,7 +6,7 @@ import ellipse from '/images/ellipse.png'
 
 const Bottle = () => {
   return (
-    <section className='rounded-lg bg-bottleBlue grid grid-cols-2 py-4 h-40 mt-28 relative'>
+    <section className='rounded-lg bg-bottleBlue grid grid-cols-2 py-4 h-40 relative mt-28'>
         <div className='relative'>
             <img src={vector1} alt="vector1 image" className='absolute left-0 -top-9 h-24 w-24'/>
             <img src={vector2} alt="vector2 image" className='absolute left-0 -top-4 h-24 w-24'/>
